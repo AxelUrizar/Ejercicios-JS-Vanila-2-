@@ -7,8 +7,6 @@ let arrNumeros = [];
 
 for (let i = 0; i < numeros; i++) {
     arrNumeros.push(Math.round(Math.random()* (maxNumeros - minNumeros) + minNumeros));
-    console.log(arrNumeros);
-    
 }
 
-document.write(arrNumeros);
+console.log(arrNumeros);
